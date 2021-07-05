@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>PlayStation-Nikola Gadže</title>
+
+
+    <style>
+      body{
+        font-family: 'Roboto', sans-serif;
+      }
+      /*Ovo je css za izbornik na vrhu*/
+        *{padding: 0px;
+        margin: 0px;
+        }
+        
+        #nav-bar{top:0;
+        z-index: 10;}
+
+        .navbar-brand img{
+          height: 40px ;
+          padding-left: 30px;
+        }
+
+        .navbar-nav li{
+            padding: 0 10px;
+        }
+
+        .navbar-nav li {
+            float: right;
+            text-align: left;
+        }
+
+        #nav-bar ul li a:hover{
+            color: #007bff !important;
+        }
+
+       .navbar-toggler{
+           border: none !important;
+       }
+
+       .nav.link{
+           color: #555 !important;
+           font-weight: 600;
+           font-size: 16 px;
+       }
+      /*Ovo je kraj cssa za izbornik*/
+
+       /*OVDJE SE UMEĆE CSS ZA MAIN SECTION-GLAVNI DIO BODYA*/
+       #kontakt{
+         padding-top: 100px;
+         padding-bottom: 70px;
+       }
+
+       
+      /*Podnožje stranice*/
+
+      #kraj{
+        background-color: #343a40;
+        padding: 1rem 2rem 3rem;
+      }
+
+      #kraj p, #kraj a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .socket{
+        color: white;
+        text-decoration: none;
+      }
+
+      ul.social{
+        list-style-type: none;
+        display: flex;
+        max-width: 16rem;
+        margin: 0 auto;
+        padding: 0;
+      }
+
+      ul.social li{
+        margin: 0 auto;
+      }
+
+      #kraj{
+        font-size: 3.3rem;
+      }
+
+      #kraj :hover{
+        color:#007bff;
+      }
+
+      .socket{
+        background-color: #343a40;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--Zaglavlje-->
+    <header id="nav-bar">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsFtRb6fbpHL5DwlxXXep8pUMrtJG49TQmt9zY63XYbf7QdO5oQThwqi4YsDHtSY3RR44&usqp=CAU"></a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Konzole
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="PlayStation1.html">PlayStation 1</a>
+                    <a class="dropdown-item" href="PlayStation2.html">PlayStation 2</a>
+                    <a class="dropdown-item" href="PlayStation3.html">PlayStation 3</a>
+                    <a class="dropdown-item" href="PlayStation4.html">PlayStation 4</a>
+                    <a class="dropdown-item" href="PlayStation 5.html">PlayStation 5</a>
+                  </div>
+                </li>
+      
+                <li class="nav-item">
+                  <a class="nav-link" href="Dodatci za PlayStation.html">Dodatci</a>
+                </li>
+      
+                <li class="nav-item">
+                  <a class="nav-link" href="Servisi za PlayStation.html">PS Servisi</a>
+                </li>
+      
+                <li class="nav-item">
+                  <a class="nav-link" href="Potpora PS.html">Potpora</a>
+                </li>
+            
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+
+    <section id="kontakt">
+
+      <div class="container-fluid" align="center">
+        <div class="col d-flex justify-content-center">
+          <form method="POST" id="forma">
+            <h4><strong>Ostavite kontakt informacije kako bi ste saznali što vas zanima!</strong></h4><br>
+
+            <b>Ime:</b> <br>
+            <input type="text" id="ime" required="" placeholder="Unesite ime..."> <br><br>
+
+            <b>Prezime:</b> <br>
+            <input type="text" id="prezime" required="" placeholder="Unesite prezime..."> <br><br>
+
+            <b>Email:</b> <br>
+            <input type="email" id="email" required="" placeholder="Unesite email adresu..."> <br><br>
+
+            <b>Telefon:</b> <br>
+            <input type="tel" id="mobitel" placeholder="Unesite broj telefona..."> <br><br>
+
+            <button type="button" class="btn btn-primary" id="povezi_button" onclick="poveziPSAccount()">Povežite svoj PlayStation Account</button> <br><br>
+            <button type="button" class="btn btn-primary" id="submit_button" onclick="slanjePodataka()">Pošaljite podatke</button>
+          </form>
+        </div>
+      </div>
+
+    </section>
+
+    
+       
+    
+    <section id="kraj">
+      <div class="container-fluid">
+        <div class="row text-light text-center py-4 justify-content-center">
+          <div class="col-sm-10 col-md-8 col-lg-6">
+              <ul class="social pt-3">
+                <li><a href="https://www.facebook.com/playstation" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/playstation/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/playstation" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/playstation" target="_blank"><i class="fab fa-youtube"></i></a></li>
+              </ul>
+
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+    <footer class="socket text-light text-center py-3">
+      <p>©2021-FPMOZ-Informatika</p>
+    </footer>
+
+    
+
+    <script>
+        
+      registrirani_korisnici = []
+      function slanjePodataka() {
+        let ime = document.getElementById("ime");
+        let prezime = document.getElementById("prezime");
+        let email = document.getElementById("email");
+        let mobitel = document.getElementById("mobitel");
+
+        if (!ime.value.length || !prezime.value.length || !email.value.length || !mobitel.value.length) {
+          if (!ime.value.length) {
+            alert("Niste unijeli ime!");
+            ime.style.border = "1px solid red"
+            setTimeout(function(){
+              ime.style.border = "1px solid rgb(110,133,211)"
+              }
+              , 3000);
+          }
+          if (!prezime.value.length) {
+            alert("Niste unijeli prezime!");
+            prezime.style.border = "1px solid red"
+            setTimeout(function(){
+              prezime.style.border = "1px solid rgb(110,133,211)"
+              }
+              , 3000);
+          }
+          if (!email.value.length) {
+            alert("Niste unijeli email!");
+            email.style.border = "1px solid red"
+            setTimeout(function(){
+              email.style.border = "1px solid rgb(110,133,211)"
+              }
+              , 3000);
+          }
+          if (!mobitel.value.length) {
+            alert("Niste unijeli broj mobitela!");
+            mobitel.style.border = "1px solid red"
+            setTimeout(function(){
+              mobitel.style.border = "1px solid rgb(110,133,211)"
+              }
+              , 3000);
+          }
+        }
+      else {
+        console.log("Ime: " + ime.value + "\n" + "Prezime: " + prezime.value + "\n" + "Email: " + email.value + "\n" + "Broj mobitela: " + mobitel.value)
+        korisnik = {'ime': ime.value,
+                    'prezime': prezime.value,
+                    'email': email.value,
+                    'mobitel': mobitel.value}
+        ime.value = null
+        prezime.value = null
+        email.value = null
+        mobitel.value = null
+        registrirani_korisnici.push(korisnik);
+        console.log(registrirani_korisnici);
+        alert("Uspješno ste poslali svoje podatke")
+      }
+    }
+
+    function poveziPSAccount() {
+      let username = prompt("Unesite svoj PS Account Korisničko ime!");
+      console.log("PlayStation Account korisničko ime: " + username);
+      setTimeout(function(){
+        alert(username + " dobrodošli na svoj PlayStation Account")
+              }
+              , 2000);
+    }
+    
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+
+</html>

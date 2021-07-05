@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>PlayStation-Nikola Gadže</title>
+
+
+    <style>
+      body{
+        font-family: 'Roboto', sans-serif;
+      }
+      /*Ovo je css za izbornik na vrhu*/
+        *{padding: 0px;
+        margin: 0px;
+        }
+        
+        #nav-bar{top:0;
+        z-index: 10;}
+
+        .navbar-brand img{
+          height: 40px ;
+          padding-left: 30px;
+        }
+
+        .navbar-nav li{
+            padding: 0 10px;
+        }
+
+        .navbar-nav li {
+            float: right;
+            text-align: left;
+        }
+
+        #nav-bar ul li a:hover{
+            color: #007bff !important;
+        }
+
+       .navbar-toggler{
+           border: none !important;
+       }
+
+       .nav.link{
+           color: #555 !important;
+           font-weight: 600;
+           font-size: 16 px;
+       }
+      /*Ovo je kraj cssa za izbornik*/
+
+       /*OVDJE SE UMEĆE CSS ZA MAIN SECTION-GLAVNI DIO BODYA*/
+       #pocetak{
+         padding-top: 100px;
+         color: #007bff;
+       }
+
+       
+
+       #drugi_red, #treci_red, #cetvrti_red, #peti_red, #sesti_red, #sedmi_red{
+        color: #007bff ;
+        padding-top: 50px;
+       }
+
+
+
+      /*Podnožje stranice*/
+
+      #kraj{
+        background-color: #343a40;
+        padding: 1rem 2rem 3rem;
+      }
+
+      #kraj p, #kraj a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .socket{
+        color: white;
+        text-decoration: none;
+      }
+
+      ul.social{
+        list-style-type: none;
+        display: flex;
+        max-width: 16rem;
+        margin: 0 auto;
+        padding: 0;
+      }
+
+      ul.social li{
+        margin: 0 auto;
+      }
+
+      #kraj{
+        font-size: 3.3rem;
+      }
+
+      #kraj :hover{
+        color:#007bff;
+      }
+
+      .socket{
+        background-color: #343a40;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--Zaglavlje-->
+    <header id="nav-bar">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsFtRb6fbpHL5DwlxXXep8pUMrtJG49TQmt9zY63XYbf7QdO5oQThwqi4YsDHtSY3RR44&usqp=CAU"></a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Konzole
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="PlayStation1.html">PlayStation 1</a>
+                    <a class="dropdown-item" href="PlayStation2.html">PlayStation 2</a>
+                    <a class="dropdown-item" href="PlayStation3.html">PlayStation 3</a>
+                    <a class="dropdown-item" href="PlayStation4.html">PlayStation 4</a>
+                    <a class="dropdown-item" href="PlayStation 5.html">PlayStation 5</a>
+                  </div>
+                </li>
+      
+                <li class="nav-item">
+                  <a class="nav-link" href="Dodatci za PlayStation.html">Dodatci</a>
+                </li>
+      
+                <li class="nav-item">
+                  <a class="nav-link" href="Servisi za PlayStation.html">PS Servisi</a>
+                </li>
+      
+                <li class="nav-item">
+                  <a class="nav-link" href="Potpora PS.html">Potpora</a>
+                </li>
+            
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    
+
+    <section id="pocetak">
+        <h1 id="naslov" align="center" style="color: black;"><strong>PocketStation</strong></h1>
+
+      <br>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6" align="left">
+            <br>
+            <br>
+            <div class="Uvod">
+              <p>
+                Periferna memorijska kartica za PlayStation konzolu, okarakterizirana kao kombinacija memorijske kartice i mobilnog računala.
+              </p>
+
+              <br>
+
+              <p>
+                Uređaj ima monokromni zaslon s tekućim kristalima (LCD), mogućnost infracrvene komunikacije, sat u stvarnom vremenu, ugrađenu flash memoriju  imogućnost zvuka.
+              </p>
+              
+              <br>
+
+              <p>
+                Da bi se koristila funkcionalnost memorijske kartice uređaja, mora biti povezana s PlayStationom kroz utor za memorijsku karticu. Objavljen je u Japanu 23. siječnja 1999.
+              </p> 
+                
+              <br>
+              
+              <p>
+                Tehničke specifikacije su mu procesor ARM7T (32-bit RISC chip), memorija 2K bytes SRAM, 128K bytes Flash RAM, 32x32 točkasti monokorni LCD zaslon, zvuk na jedan minijatorni zvučnik(PCM od 10 bitova), 5 tipki na zaslonu i jedna tipka za "Reset", Led indikator i  1 CR-2032 litijska baterija.
+              </p>
+
+              <br>
+
+            </div>
+          </div>  
+          
+
+          <div class="col-sm-6">
+            <img src="https://www.unilad.co.uk/wp-content/uploads/2020/01/Forgotten-Playstation-Consoles-Thumbnail-PocketStation-PSX-DVR.jpg"
+             width="90%" align="right">
+             <p align="center" style="color: black;"><em>PocketStation(lijevo) i PSX(desno)</em></p>
+
+             
+
+          </div>
+
+          
+        </div>
+
+      </div>
+    </section>
+
+    <div>
+      <hr>
+    </div>
+       
+
+    <section id="drugi_red">
+    <h1 align="center" style="color: black;"><strong>PlayStation Portable</strong></h1>
+
+         <br>
+
+      <div class="container-fluid">
+        <div class="row">
+          
+          
+
+          <div class="col-sm-6">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Psp-1000.jpg/1920px-Psp-1000.jpg"
+             width="100%">
+             <p align="left" style="color: black;"><em>PlayStationa Portable</em></p>
+
+          </div>
+
+          <div class="col-sm-6" align="left">
+            <br>
+            <br>
+            <div class="Uvod">
+              <p>
+                PlayStation Portable ili PSP prijenosna je igraća konzola tvrtke Sony proizvedena 2004.godine i proizvodila je se sve do 2014.godine.
+              </p>
+                
+              <br>
+
+              <p>
+                Diljem svijeta je prodana u preko 80 milijuna primjeraka.
+              </p>
+                  
+              <br>
+
+              <p>
+                Izašla je u 5 modela PSP1000, PSP2000, PSP3000, PSP Go i PSP E1000.
+              </p> 
+                
+              <br>
+              
+              <p>
+                S lijeve strane konzole nalaze se četiri upravljačke strjelice, tzv. D-pad. U sredini je ekran, a s desne su strane PS gumbi: zeleni trokut, crveni krug, plavi X i ljubičasti kvadrat.
+              </p>
+
+              <br>
+
+              <p>
+                PSP podržava samo UMD (Universal Media Disc) igre. PSP Go ne podržava UMD, jer su igre dostupne samo u digitalnom obliku. Igre može igrati više osoba istovremeno preko WLAN-a. Pored igara, konzola podupire slušanje glazbe, pregled slika i videozapisa te pretraživanje interneta.
+              </p>
+
+            </div>
+          </div>  
+
+          
+        </div>
+
+      </div>
+
+      <div>
+        <hr>
+      </div>
+    </section>
+
+
+    <section id="treci_red">
+       
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6" align="left">
+            <br>
+            <br>
+            <div class="Uvod">
+              <p>
+                Pripada sedmoj generaciji konzola i ima pristup internetu pomoću usluge PlayStation Network.
+              </p>
+
+              <br>
+
+              <p>
+              Korišten je zaslon u veličini 4.3 inča (110 mm) 30:17 TFT at 480 × 272, 16.77 milijuna boja,kod PS Go-a(3.8 inča (97 mm) 30:17 TFT at 480 × 272, 16.77 million colors s klizajućim zaslonom), PSP koristi procesor MIPS R4000 s frekencijom  1~333 MHz.
+              </p>
+              
+              <br>
+
+              <p>
+                Ima skladište RAM memorije od 32MB i 64MB, 802.11b  Wi-Fi povezivanje, USB 2.0, UMD, seriajski utor, utor za slušalice, memorijski stick PRO Duo.
+              </p> 
+                
+              <br>
+              
+              <p>
+               Najprodavanije igrica je Grand Theft Auto: Liberty City Stories koja je prodana u približno 8 milijuna primjeraka.
+              </p>
+
+                <br>
+
+            </div>
+          </div>  
+          
+
+          <div class="col-sm-6">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/PSP-Go-FL-Open.jpg/1024px-PSP-Go-FL-Open.jpg"
+             width="70%">
+             <p align="center" style="color: black;"><em>PSP Go</em></p>
+
+             
+
+          </div>
+
+          
+        </div>
+
+      </div>
+    </section>
+
+    <div>
+        <hr>
+    </div>
+
+    <section id="cetvrti_red">
+      <h1 align="center" style="color: black;"><strong>PlayStation Vita</strong></h1>
+        <br>
+        
+
+      <div class="container-fluid">
+        <div class="row">
+          
+          
+
+          <div class="col-sm-6">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/PlayStation_Vita_illustration.svg/1920px-PlayStation_Vita_illustration.svg.png"
+             width="100%">
+             <p align="center" style="color: black;"><em>PlayStation Vita</em></p>
+
+          </div>
+
+          <div class="col-sm-6" align="left">
+            <br>
+            <br>
+            <div class="Uvod">
+              <p>
+                PlayStation Vita prijenosna je igraća konzola koju je razvio Sony. Nasljednica je PlayStation Portable serije prijenosnih igraćih konzola. Najavljena je na PlayStation Meeting-u 27. siječnja 2011. godine pod kodnim nazivom PlayStation Next Generation Portable (NGP).
+              </p>
+                
+
+              <br>
+
+              <p>
+                Za razliku od PSP-a, PlayStation Vita ima 5 inčni ekran osjetljiv na dodir. Igre za PSP koje dolaze na UMD diskovima nisu kompatibilne s PS Vitom zbog nepostojanja utora za UMD diskove.
+              </p>
+                
+              
+              <br>
+
+              <p>
+                PS Vita PCH-1000 dolazi u dvije varijante - varijanta s WiFi-em i skuplja varijanta s 3G-om i WiFi-em. Te dvije varijante se razlikuju, osim u dostupnim načinima povezivanja, i po tome što 3G + WiFi model ima i GPS.
+              </p> 
+                
+              <br>
+
+              
+
+            </div>
+          </div>  
+
+          
+        </div>
+
+      </div>
+
+    </section>
+
+    <div>
+        <hr>
+    </div>
+
+
+    <section id="peti_red">
+
+      <br>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6" align="left">
+            <br>
+            <br>
+            <div class="Uvod">
+              <p>
+                Do sada su izašla dva modela PS Vite - PCH-1000 i PCH-2000 (Slim). PCH-2000 u odnosu na PCH-1000 donosi LCD umjesto OLED ekrana što je godilo bateriji koja sada traje jedan sat duže. Slim model (PCH-2000) 20% je tanji i 15% lakši od svojeg prethodnika.Također, nestandardni priključak za punjač na modelu PCH-1000 zamijenjen je standardnim priključkom micro USB (Tip B) na modelu PCH-2000.
+              </p>
+
+              <br>
+
+              <p>
+                UMD diskove korištene u PSP-u zamijenila je PS Vita Game Card kartica na kojoj se isporučaju igre i različit softver. Veličinom i oblikom vrlo je slična SD karticama. Od 5 do 10% ukupnog kapaciteta kartice rezervirano je za ispravke pogrešaka i spremanje napretka u igrama.
+              </p>
+              
+              <br>
+
+              <p>
+                PS Vita ne podržava microSD memorijske kartice nego koristi posebne PS Vita memorijske kartice dostupne u kapacitetima od 4, 8, 16, 32 i 64 gigabajta. Od ažuriranja 3.10 moguće je spremiti do 500 aplikacija i igara na jednu PS Vita memorijsku karticu.
+              </p> 
+                
+              <br>
+              
+              <p>
+                PlayStation Vita je prodana u preko 15 milijuna primjeraka diljem svijeta.
+              </p>
+
+            </div>
+          </div>  
+          
+
+          <div class="col-sm-6">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Playstation_vita_media.svg/1280px-Playstation_vita_media.svg.png"
+             width="70%">
+             <p align="center" style="color: black;"><em>PS Vita Game Card (lijevo) i PS Vita memorijska kartica (desno)</em></p>
+
+             
+
+          </div>
+
+          
+        </div>
+
+      </div>
+    </section>
+
+    <div>
+      <hr>
+    </div>
+
+
+    <section id="sesti_red">
+      <h1 align="center" style="color: black;"><strong>PlayStation TV</strong></h1>
+        <br>
+        
+
+      <div class="container-fluid">
+        <div class="row">
+          
+          
+
+          <div class="col-sm-6">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/PlayStation-TV-BL.jpg/1280px-PlayStation-TV-BL.jpg"
+             width="100%">
+             <p align="center" style="color: black;"><em>PlayStation TV</em></p>
+
+          </div>
+
+          <div class="col-sm-6" align="left">
+            <br>
+            <br>
+            <div class="Uvod">
+              <p>
+                PlayStation TV (skraćeno PS TV), Sonyeva je igraća konzola, Ne-prijenosna je verzija PlayStation Vite puštena u prodaju krajem 2013.godine. 
+              </p>
+                
+
+              <br>
+
+              <p>
+                PlayStation TV nema vlastiti zaslon nego se pomoću HDMI kabla spaja na TV ili monitor. PlayStation TV-om se upravlja pomoću DualShock 3 i DualShock 4 kontrolera ili pomoću PS Vite. 
+              </p>
+                
+              
+              <br>
+
+              <p>
+                Kompatibilan je s više od 100 PlayStation Vita igara. Pomoću servisa PlayStation Now, moguće je streamati igre za PlayStation 3. PlayStation TV podržava i Remote Play, pa je moguće i streamati igre za PlayStation 4. Grafičko sučelje PlayStation TV-a jest LiveArea kojeg koristi i PlayStation Vita.
+              </p> 
+                
+              <br>
+
+              <p>
+                Sadržaj prikazuju pomoću HDMI rezolucija (720p, 1080i, 480p), koristi Quad-core PowerVR SGX543MP4+ grafičku karticu, memoriju od 512 MB RAM i 128 MB VRAM te skladište podataka od 1GB ugrađeno i koristi četverojezgerni ARM Cortex-A9 MPCore procesor.
+              </p>
+              
+              <br>
+
+              <p>
+
+              </p>
+              Spaja se na mrežu pomoću 	IEEE 802.11 b/g/n Wi-Fi, Bluetooth 2.1+EDR (A2DP, AVRCP, HSP, HID), Ethernet LAN (10BASE-T, 100BASE-TX) koristeći usluge PlayStation Networka.
+            </div>
+          </div>  
+
+          
+        </div>
+
+      </div>
+
+    </section>
+
+    <div>
+        <hr>
+    </div>
+
+
+    <section id="sedmi_red">
+      <h1 align="center" style="color: black;"><strong>PlayStation VR</strong></h1>
+      <br>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6" align="left">
+            <br>
+            <br>
+            <div class="Uvod">
+              <p>
+                PlayStation VR je set naočala koji prikazuju "Virtualnu realnost", a tvrtka Sony ga je u prodaju pustila 2016.godine.
+              </p>
+
+              <br>
+
+              <p>
+                Kompaktabilan je sa PlayStation 4 i PlayStation 5 konzolama i prodao je se diljem svijeta u preko 5 milijuna primjeraka.
+              </p>
+              
+              <br>
+
+              <p>
+               Prikazuje sliku korisniku u rezoluciji od 1080p, pomoću 5.7 inčnog OLED panela, koji omogućuje korisniku vid pod kutem od 100 stupnjeva i 3D zvukom kroz slušalice.
+              </p> 
+                
+              <br>
+              
+              <p>
+               Pomoću kamere pod nazivom PlayStation Camera prati pokret upravljača i pretvara ga u pokret u igri. 
+              </p>
+
+            </div>
+          </div>  
+          
+
+          <div class="col-sm-6">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Sony-PlayStation-4-PSVR-Headset-Mk1-FL.jpg/1280px-Sony-PlayStation-4-PSVR-Headset-Mk1-FL.jpg"
+             width="70%">
+             <p align="center" style="color: black;"><em>PS VR</em></p>
+
+             
+
+          </div>
+
+          
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section id="kraj">
+      <div class="container-fluid">
+        <div class="row text-light text-center py-4 justify-content-center">
+          <div class="col-sm-10 col-md-8 col-lg-6">
+              <ul class="social pt-3">
+                <li><a href="https://www.facebook.com/playstation" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/playstation/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/playstation" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/playstation" target="_blank"><i class="fab fa-youtube"></i></a></li>
+              </ul>
+
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+    <footer class="socket text-light text-center py-3">
+      <p>©2021-FPMOZ-Informatika</p>
+    </footer>
+
+    
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+
+</html>

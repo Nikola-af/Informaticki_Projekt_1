@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>PlayStation-Nikola Gadže</title>
+
+
+    <style>
+      body{
+        font-family: 'Roboto', sans-serif;
+      }
+      /*Ovo je css za izbornik na vrhu*/
+        *{padding: 0px;
+        margin: 0px;
+        }
+        
+        #nav-bar{top:0;
+        z-index: 10;}
+
+        .navbar-brand img{
+          height: 40px ;
+          padding-left: 30px;
+        }
+
+        .navbar-nav li{
+            padding: 0 10px;
+        }
+
+        .navbar-nav li {
+            float: right;
+            text-align: left;
+        }
+
+        #nav-bar ul li a:hover{
+            color: #007bff !important;
+        }
+
+       .navbar-toggler{
+           border: none !important;
+       }
+
+       .nav.link{
+           color: #555 !important;
+           font-weight: 600;
+           font-size: 16 px;
+       }
+      /*Ovo je kraj cssa za izbornik*/
+
+       /*OVDJE SE UMEĆE CSS ZA MAIN SECTION-GLAVNI DIO BODYA*/
+       #pocetak{
+         padding-top: 100px;
+         color: #007bff;
+       }
+
+       
+
+       #drugi_red, #treci_red, #cetvrti_red{
+        color: #007bff ;
+        padding-top: 50px;
+       }
+
+       #peti_red{
+           padding-top: 40px;
+           padding-bottom: 40px;
+       }
+
+
+
+      /*Podnožje stranice*/
+
+      #kraj{
+        background-color: #343a40;
+        padding: 1rem 2rem 3rem;
+      }
+
+      #kraj p, #kraj a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .socket{
+        color: white;
+        text-decoration: none;
+      }
+
+      ul.social{
+        list-style-type: none;
+        display: flex;
+        max-width: 16rem;
+        margin: 0 auto;
+        padding: 0;
+      }
+
+      ul.social li{
+        margin: 0 auto;
+      }
+
+      #kraj{
+        font-size: 3.3rem;
+      }
+
+      #kraj :hover{
+        color:#007bff;
+      }
+
+      .socket{
+        background-color: #343a40;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--Zaglavlje-->
+    <header id="nav-bar">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsFtRb6fbpHL5DwlxXXep8pUMrtJG49TQmt9zY63XYbf7QdO5oQThwqi4YsDHtSY3RR44&usqp=CAU"></a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Konzole
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="PlayStation1.html">PlayStation 1</a>
+                    <a class="dropdown-item" href="PlayStation2.html">PlayStation 2</a>
+                    <a class="dropdown-item" href="PlayStation3.html">PlayStation 3</a>
+                    <a class="dropdown-item" href="PlayStation4.html">PlayStation 4</a>
+                    <a class="dropdown-item" href="PlayStation 5.html">PlayStation 5</a>
+                  </div>
+                </li>
+      
+                <li class="nav-item">
+                  <a class="nav-link" href="Dodatci za PlayStation.html">Dodatci</a>
+                </li>
+      
+                <li class="nav-item">
+                  <a class="nav-link" href="Servisi za PlayStation.html">PS Servisi</a>
+                </li>
+      
+                <li class="nav-item">
+                  <a class="nav-link" href="Potpora PS.html">Potpora</a>
+                </li>
+            
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    
+
+    <section id="pocetak">
+        <h1 id="naslov" align="center" style="color: black;"><strong>PlayStation 4</strong></h1>
+
+      <br>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6" align="left">
+            <br>
+            <br>
+            <div class="Uvod">
+              <p>
+                PlayStation 4 je četvrta generacija Sony PlayStation konzola, pripada osmoj generaciji igraćih konzola, a u prodaju je puštena krajem 2013.godine.
+              </p>
+
+              <br>
+
+              <p>
+                Koristi jednostavniji AMD procesor od 1.84 teraflopa što mu daje ogromnu prednost na Cell procesor koji koristi PS3, a dolazi u dvije verzije sa skladištem od 500GB i 1TB.
+              </p>
+              
+              <br>
+
+              <p>
+                U ovoj generaciji Sony stavlja više fokusa na socijalni gameplay, dodavanjem "Share" tipke na upravljaču omogućavajući korisniku da gleda prijenos igra od prijatelja te igra skupa s prijateljom.
+              </p> 
+                
+              <br>
+              
+              <p>
+                Konzola se također fokusira na s drugim uslugama i uređajima, uključujući Gaikai, igračka usluga bazirana na oblačićima koja nudi sadržaj i igre koji mogu biti preuzete; PlayStation EP povezuje pametne telefone i tablete u sekundarni ekran da poboljša gameplay.
+              </p>
+
+              <br>
+
+            </div>
+          </div>  
+          
+
+          <div class="col-sm-6">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/PS4-Console-wDS4.png/1920px-PS4-Console-wDS4.png"
+             width="90%" align="right">
+             <p align="center" style="color: black;"><em>PlayStation 4 i DualShock 4</em></p>
+
+             
+
+          </div>
+
+          
+        </div>
+
+      </div>
+    </section>
+
+    <div>
+      <hr>
+    </div>
+       
+
+    <section id="drugi_red">
+        
+
+         <br>
+
+      <div class="container-fluid">
+        <div class="row">
+          
+          
+
+          <div class="col-sm-6">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/3b/PlayStation_4_System_Software_Screenshot.png"
+             width="100%">
+             <p align="left" style="color: black;"><em>Početni zaslon PlayStationa 4</em></p>
+
+          </div>
+
+          <div class="col-sm-6" align="left">
+            <br>
+            <br>
+            <div class="Uvod">
+              <p>
+               Koristi samo Blu-ray diskove koje očitaje tri puta brže nego njegov prethodnik, te podržava rezoucijske standarde od 1080i i 1080p, a PS4 Pro podržava i 4K rezoluciju.
+              </p>
+                
+              <br>
+
+              <p>
+                Podržava Wi-fi, Bluetooth i Ethernet povezanost i ima dva 3.0 USB porta, AUX utor za PlayStation Kameru,na DualShocku 4 sadrži utor za slušalice, a audio i video opcije sadrže HDMI TV i optički S/PDIF audio,
+              </p>
+                  
+              <br>
+
+              <p>
+               PS4 sadrži i takozvani "Rest Mode" koji stavlja konzolu u stanje niske potrošnje energije i time omogućava korisnicima da igru nastave gdje su stali ili da skidaju sadržaj i ažuiranja sustava dok ne koriste konzolu.
+              </p> 
+                
+              <br>
+              
+              <p>
+                DualShock 4 je upravljač za ovu konzolu i doživio je najdrastičnu promjenu u odnosu na prva tri izdanja upravljača, zadržavši i dalje sličan dizajn ali s nekim promjenutim funkcionalnostima poput "Touchpada" koji reagira na dodir i može se koristi kao tipka. Također je dodana i "Share" tipka , te svjetlosnu LED traku koja mijenja boje dok korisnik upravlja njime.  
+              </p>
+
+              <br>
+
+              <p>
+                Druga je najprodavanije konzola u povijesti sa preko 115 milijuna prodanih primjeraka.
+              </p>
+            </div>
+          </div>  
+
+          
+        </div>
+
+      </div>
+
+      <div>
+        <hr>
+      </div>
+    </section>
+
+
+    <section id="treci_red">
+       <h2 align="center" style="color: black;">Play Station 4 Slim</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6" align="left">
+            <br>
+            <br>
+            <div class="Uvod">
+              <p>
+                  Sony je krajem 2016.godine u prodaju pustio modificiranu verziju PS4 pod nazivom PS4 Slim.
+              </p>
+
+              <br>
+
+              <p>
+                Kao i kod svih prethodnika manji je, tanji te proizvodi manje buke, a sadrži isti kapacitet memorije kao i PS4.
+              </p>
+              
+              <br>
+
+              <p>
+                Iako su promjene uglavnom u izgledu ima manjih promjena kod verzija korištenja tehnologija, pa se tako na dva USB porta koristi USB 3.1, i Bluetooth 4.0 and 5.0 GHz Wi-Fi.
+              </p> 
+                
+              <br>
+              
+
+            </div>
+          </div>  
+          
+
+          <div class="col-sm-6">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/61OL2zIliML._SL1500_.jpg"
+             width="70%">
+             <p align="center" style="color: black;"><em>PlayStation 4 Slim</em></p>
+
+             
+
+          </div>
+
+          
+        </div>
+
+      </div>
+    </section>
+
+    <div>
+        <hr>
+    </div>
+
+    <section id="cetvrti_red">
+        <h2 align="center" style="color: black;">PlayStation 4 Pro</h2>
+
+        <br>
+
+      <div class="container-fluid">
+        <div class="row">
+          
+          
+
+          <div class="col-sm-6">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Sony-PlayStation4-Pro-Console-FL.jpg/1920px-Sony-PlayStation4-Pro-Console-FL.jpg"
+             width="70%">
+             <p align="center" style="color: black;"><em>PlayStation 4 Pro</em></p>
+
+          </div>
+
+          <div class="col-sm-6" align="left">
+            <br>
+            <br>
+            <div class="Uvod">
+              <p>
+                Sony je PlayStation 4 Pro u prodaju pustio krajem 2016.godine, kada i PS4 Slim.
+              </p>
+
+              <br>
+
+              <p>
+                Unaprijeđena je verzija PlayStationa 4 sa poboljšanim sklopovljem da bi se omogućio prikaz 4K rezolucije i poboljšan prikaz PlayStation VR-a, s unaprijeđenim GPU-om od 4.2 teraflopa.
+              </p>
+              
+              <br>
+
+              <p>
+               Kao i PS4 Slim ovaj model također ima podršku za USB 3.1, Bluetooth 4.0 i 5.0 GHz Wi-Fi. PS4 Pro također uključuje 1 GB DDR3 memorije koja se koristi za zamjenu ne-igračkih aplikacija koje rade u pozadini, što omogućava igrama da iskoriste dodatnih 512 MB GDDR5 memorije konzole.
+              </p> 
+                
+              <br>
+              
+              <p>
+                Iako sposoban za prikazivanje 4K video zapisa, PS4 Pro ne podržava Ultra HD Blu-ray.
+              </p>
+
+              
+            </div>
+          </div>  
+
+          
+        </div>
+
+      </div>
+
+    </section>
+
+    <div>
+        <hr>
+    </div>
+
+
+    <section id="peti_red">
+        <h4  align="center" style="color: black;">Sjedišta u Americi i Europi</h4>
+
+      <br>
+
+      <div class="container-fluid">
+        <div class="row">
+          
+          
+
+          <div class="col-sm-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.7237003677983!2d-122.28670398483231!3d37.56157297979882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f9ec3d79b09fb%3A0x42f17b2ead6b29b9!2sPlayStation%20America!5e0!3m2!1shr!2sba!4v1625377683084!5m2!1shr!2sba" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+             
+
+           </div>
+
+           <div class="col-sm-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.9134914184897!2d-0.14053518434266926!3d51.51480307963639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d52b82161d%3A0xc74d31c89e3a08e9!2s10%20Great%20Marlborough%20St%2C%20London%20W1F%207LP%2C%20Ujedinjeno%20Kraljevstvo!5e0!3m2!1shr!2sba!4v1625378157803!5m2!1shr!2sba" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" align="right"></iframe>
+             
+
+           </div>
+
+          
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section id="kraj">
+      <div class="container-fluid">
+        <div class="row text-light text-center py-4 justify-content-center">
+          <div class="col-sm-10 col-md-8 col-lg-6">
+              <ul class="social pt-3">
+                <li><a href="https://www.facebook.com/playstation" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/playstation/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/playstation" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/playstation" target="_blank"><i class="fab fa-youtube"></i></a></li>
+              </ul>
+
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+    <footer class="socket text-light text-center py-3">
+      <p>©2021-FPMOZ-Informatika</p>
+    </footer>
+
+    
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+
+</html>
